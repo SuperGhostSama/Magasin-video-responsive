@@ -90,8 +90,17 @@ section div.ProductCard p.Saving{
   margin-left: 150px;;
   flex-wrap: wrap;
 }
+
   /* For Tablette */
 @media(max-width: 768px) {
+  /*Reglage Titre et paragraphe*/
+  section h1{
+    margin-left: 20px;
+  }
+  section p{
+    margin-left: 20px;
+    width: 100%;
+  }
   /*Reglage LOGO */
   .NavBar img { /*l ajustement du logo */
     width: 20%;
@@ -127,10 +136,7 @@ section div.ProductCard p.Saving{
   
 }
   /*For Mobile Phone*/
-@media(max-width: 425px){
-  
-
-
+@media(max-width: 426px){
   /*Creation d une nouvelle classe de chaque A sur la nav bar pour les décaler*/
 
   .NavBar ul li a.Onglet1{
