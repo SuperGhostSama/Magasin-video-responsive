@@ -128,26 +128,39 @@ section div.ProductCard p.Saving{
 }
   /*For Mobile Phone*/
 @media(max-width: 425px){
+  
+
+
   /*Creation d une nouvelle classe de chaque A sur la nav bar pour les décaler*/
+
   .NavBar ul li a.Onglet1{
-    display: block;
-    margin-right: 10px;
+    margin-right: auto;
     margin-left: -30px;
   }
   .NavBar ul li a.Onglet2{
-    display: block;
-    margin-right: 10px;
-    margin-left: -30px;
+    
+    margin-right: auto;
+    
   }
   .NavBar ul li a.Onglet3{
-    display: block;
-    margin-right: 10px;
-    margin-left: -30px;
+   
+    margin-right: auto;
+  
   }
   .NavBar ul li a.Onglet4{
-    display: block;
-    margin-right: 10px;
-    margin-left: -30px;
+    
+    margin-right: auto;
+  
   }
+  
+  /*Creation d une nouvelle classe de chaque A sur le breadcrumbs pour les décaler*/
+  
+  
+
+
+
+
+
+
 
 }
