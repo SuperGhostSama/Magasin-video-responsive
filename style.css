@@ -137,6 +137,10 @@ section div.ProductCard p.Saving{
 }
   /*For Mobile Phone*/
 @media(max-width: 426px){
+  .Breadcrumbs{
+    margin-left: -20px;
+    font-size: 11px;
+  }
   /*Creation d une nouvelle classe de chaque A sur la nav bar pour les décaler*/
 
   .NavBar ul li a.Onglet1{
@@ -169,5 +173,10 @@ section div.ProductCard p.Saving{
   }
   .TotalCards{
     margin-left: 50px;
+  }
+}
+@media print{
+  .NavBar li{
+    display: none;
   }
 }
