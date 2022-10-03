@@ -89,8 +89,8 @@ section div.ProductCard p.Saving{
   display: flex;
   margin-left: 150px;;
 }
-@media(max-width: 768px) {
   /* For Tablette */
+@media(max-width: 768px) {
   /*Reglage LOGO */
   .NavBar img { /*l ajustement du logo */
     width: 20%;
@@ -105,13 +105,18 @@ section div.ProductCard p.Saving{
   .NavBar ul {
     display : flex;
     list-style: none;
-  
+    
+  }
+  .NavBar ul li{ 
+    margin-left: 0px;
+    margin-right: auto;
   }
   /*Reglage des cartes */
   .TotalCards{
     display: flex;
     margin-left: 150px;;
     flex-wrap: wrap;/*son role c est de diviser les cartes*/
+    
   }
   section div.ProductCard {
     border: 4px solid rgb(0, 0, 0);
@@ -120,4 +125,12 @@ section div.ProductCard p.Saving{
   }
   
 }
+  /*For Mobile Phone*/
+@media(max-width: 425px){
+  .NavBar ul{
+    
+  }
 
+
+
+}
