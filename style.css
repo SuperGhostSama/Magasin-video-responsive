@@ -152,15 +152,16 @@ section div.ProductCard p.Saving{
     margin-right: auto;
   
   }
-  
-  /*Creation d une nouvelle classe de chaque A sur le breadcrumbs pour les décaler*/
-  
-  
-
-
-
-
-
-
-
+  /*Decalage du titre*/
+  section h1{
+    margin-left: 10px;
+  }
+  /*Decalage du paragraphe*/
+  section p{
+    margin-left: 3px;
+    width: 100%;
+  }
+  .TotalCards{
+    margin-left: 50px;
+  }
 }
