@@ -90,6 +90,7 @@ section div.ProductCard p.Saving{
   display: flex;
   margin-left: 150px;;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
   /* For Tablette */
@@ -138,9 +139,11 @@ section div.ProductCard p.Saving{
 }
   /*For Mobile Phone*/
 @media(max-width: 426px){
+  body{
+    font-size: 12px;
+  }
   .Breadcrumbs{
-    margin-left: -20px;
-    font-size: 11px;
+    justify-content: center;
   }
   /*Creation d une nouvelle classe de chaque A sur la nav bar pour les décaler*/
 
@@ -173,9 +176,28 @@ section div.ProductCard p.Saving{
     width: 100%;
   }
   .TotalCards{
-    margin-left: 50px;
+    margin-left: 0px;
+    justify-content: center;
   }
 }
+
+
+
+@media(max-width: 321px){
+ body{
+  font-size: 9px;
+ }
+ .TotalCards{
+  margin-left: 0px;
+  justify-content: center;
+
+ }
+}
+
+
+
+
+
 @media print{
   .NavBar li{
     display: none;
